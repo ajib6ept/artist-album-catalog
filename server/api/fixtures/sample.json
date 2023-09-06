@@ -1,0 +1,219 @@
+[
+    {
+      "model": "api.artist",
+      "pk": 1,
+      "fields": {
+        "created_at": "2023-09-06T03:49:21.831Z",
+        "updated_at": "2023-09-06T03:49:21.831Z",
+        "name": "Кукрыниксы"
+      }
+    },
+    {
+      "model": "api.artist",
+      "pk": 2,
+      "fields": {
+        "created_at": "2023-09-06T03:51:32.684Z",
+        "updated_at": "2023-09-06T03:51:32.684Z",
+        "name": "Seimoro"
+      }
+    },
+    {
+      "model": "api.artist",
+      "pk": 3,
+      "fields": {
+        "created_at": "2023-09-06T03:52:01.188Z",
+        "updated_at": "2023-09-06T03:52:01.188Z",
+        "name": "Iann Dior"
+      }
+    },
+    {
+      "model": "api.artist",
+      "pk": 4,
+      "fields": {
+        "created_at": "2023-09-06T03:52:41.818Z",
+        "updated_at": "2023-09-06T03:52:41.818Z",
+        "name": "Stormzy"
+      }
+    },
+    {
+      "model": "api.album",
+      "pk": 1,
+      "fields": {
+        "created_at": "2023-09-06T03:49:33.212Z",
+        "updated_at": "2023-09-06T03:49:33.212Z",
+        "artist": 1,
+        "release_year": 2016
+      }
+    },
+    {
+      "model": "api.album",
+      "pk": 2,
+      "fields": {
+        "created_at": "2023-09-06T03:52:12.852Z",
+        "updated_at": "2023-09-06T03:52:12.852Z",
+        "artist": 2,
+        "release_year": 2023
+      }
+    },
+    {
+      "model": "api.album",
+      "pk": 3,
+      "fields": {
+        "created_at": "2023-09-06T03:52:18.873Z",
+        "updated_at": "2023-09-06T03:52:18.873Z",
+        "artist": 3,
+        "release_year": 2023
+      }
+    },
+    {
+      "model": "api.track",
+      "pk": 1,
+      "fields": {
+        "created_at": "2023-09-06T03:49:48.324Z",
+        "updated_at": "2023-09-06T03:50:10.022Z",
+        "name": "Обнимай"
+      }
+    },
+    {
+      "model": "api.track",
+      "pk": 2,
+      "fields": {
+        "created_at": "2023-09-06T03:50:00.502Z",
+        "updated_at": "2023-09-06T03:50:00.502Z",
+        "name": "Последняя песня"
+      }
+    },
+    {
+      "model": "api.track",
+      "pk": 3,
+      "fields": {
+        "created_at": "2023-09-06T03:50:13.632Z",
+        "updated_at": "2023-09-06T03:50:13.632Z",
+        "name": "Шторм"
+      }
+    },
+    {
+      "model": "api.track",
+      "pk": 4,
+      "fields": {
+        "created_at": "2023-09-06T03:53:03.359Z",
+        "updated_at": "2023-09-06T03:53:03.359Z",
+        "name": "10x3"
+      }
+    },
+    {
+      "model": "api.track",
+      "pk": 5,
+      "fields": {
+        "created_at": "2023-09-06T03:53:10.595Z",
+        "updated_at": "2023-09-06T03:53:10.595Z",
+        "name": "Catching Up"
+      }
+    },
+    {
+      "model": "api.track",
+      "pk": 6,
+      "fields": {
+        "created_at": "2023-09-06T03:53:19.025Z",
+        "updated_at": "2023-09-06T03:53:19.025Z",
+        "name": "Crack Another Seal"
+      }
+    },
+    {
+      "model": "api.track",
+      "pk": 7,
+      "fields": {
+        "created_at": "2023-09-06T03:58:29.637Z",
+        "updated_at": "2023-09-06T03:58:29.637Z",
+        "name": "SuperTrack"
+      }
+    },
+    {
+      "model": "api.song",
+      "pk": 1,
+      "fields": {
+        "created_at": "2023-09-06T03:50:27.866Z",
+        "updated_at": "2023-09-06T03:50:27.866Z",
+        "track": 1,
+        "album": 1,
+        "number": 1
+      }
+    },
+    {
+      "model": "api.song",
+      "pk": 2,
+      "fields": {
+        "created_at": "2023-09-06T03:50:34.048Z",
+        "updated_at": "2023-09-06T03:50:34.048Z",
+        "track": 2,
+        "album": 1,
+        "number": 2
+      }
+    },
+    {
+      "model": "api.song",
+      "pk": 3,
+      "fields": {
+        "created_at": "2023-09-06T03:50:43.768Z",
+        "updated_at": "2023-09-06T03:50:43.769Z",
+        "track": 3,
+        "album": 1,
+        "number": 3
+      }
+    },
+    {
+      "model": "api.song",
+      "pk": 4,
+      "fields": {
+        "created_at": "2023-09-06T03:53:26.288Z",
+        "updated_at": "2023-09-06T03:53:26.288Z",
+        "track": 4,
+        "album": 3,
+        "number": 1
+      }
+    },
+    {
+      "model": "api.song",
+      "pk": 5,
+      "fields": {
+        "created_at": "2023-09-06T03:53:32.596Z",
+        "updated_at": "2023-09-06T03:53:32.596Z",
+        "track": 5,
+        "album": 3,
+        "number": 2
+      }
+    },
+    {
+      "model": "api.song",
+      "pk": 6,
+      "fields": {
+        "created_at": "2023-09-06T03:53:41.428Z",
+        "updated_at": "2023-09-06T03:53:41.428Z",
+        "track": 6,
+        "album": 3,
+        "number": 3
+      }
+    },
+    {
+      "model": "api.song",
+      "pk": 7,
+      "fields": {
+        "created_at": "2023-09-06T03:58:41.744Z",
+        "updated_at": "2023-09-06T03:58:41.744Z",
+        "track": 7,
+        "album": 1,
+        "number": 4
+      }
+    },
+    {
+      "model": "api.song",
+      "pk": 8,
+      "fields": {
+        "created_at": "2023-09-06T03:58:52.490Z",
+        "updated_at": "2023-09-06T03:58:52.490Z",
+        "track": 7,
+        "album": 3,
+        "number": 4
+      }
+    }
+  ]
